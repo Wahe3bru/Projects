@@ -7,3 +7,8 @@ words = stringy.split(" ")
 print(len(words))
 
 #need to learn how to open file and count words
+textDoc = open("countWords.txt", "r")
+textW = textDoc.read()
+words2 = textW.split(" ")
+print(words2)
+print(len(words2))
